@@ -19,7 +19,5 @@ jobs:
           script: |
             cd yourrepo
             git pull origin main
-            docker stop myapp || true
-            docker rm myapp || true
-            docker build -t myapp .
-            docker run -d -p 8989:8989 --name myapp myapp
+            docker compose down
+            docker compose up --build -d
