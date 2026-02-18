@@ -11,7 +11,7 @@ public class TestController {
 
      @GetMapping
     public String message(){
-        return "github action working properly v1";
+        return "github action working properly v2";
     }
 
 }
