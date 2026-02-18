@@ -29,7 +29,7 @@ WORKDIR /app
 COPY --from=builder /app/target/*.jar githubaction.jar
 
 # Expose application port
-EXPOSE 9898
+EXPOSE 9999
 
 # Run Spring Boot app
 ENTRYPOINT ["java", "-jar", "githubaction.jar"]
