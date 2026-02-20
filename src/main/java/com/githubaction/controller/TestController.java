@@ -18,8 +18,8 @@ public class TestController {
         Map<String,String> obj=new HashMap<>();
         obj.put("Name", "Navanth doke");
         obj.put("status", "sucesss");
-        obj.put("Name", "Sachin");
-        obj.put("status", "sucesss");
+        obj.put("Names", "Sachin");
+        obj.put("statuss", "sucesss");
         return obj;
 
     }
